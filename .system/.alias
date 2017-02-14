@@ -1,0 +1,6 @@
+alias ls="ls -al"	# list in long format, include dotfiles
+alias ld="ls -dl */"	# list in long format, directories only
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../../"
+alias please=sudo

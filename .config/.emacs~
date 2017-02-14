@@ -6,7 +6,7 @@
 ;; key bindings
 (global-set-key (kbd "C-.") 'next-buffer)
 (global-set-key (kbd "C-,") 'previous-buffer)
-
+(global-set-key [M-tab] 'other-window)
 
 
 ;; Added by Package.el.  This must come before configurations of
@@ -43,8 +43,9 @@
 
 
 
-
 (put 'scroll-left 'disabled nil)
 (global-linum-mode t)
 (latex-preview-pane-enable)
 (load-theme 'deeper-blue)
+;(setq line-move-visual t)
+(setq-default word-wrap t)
