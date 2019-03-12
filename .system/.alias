@@ -1,6 +1,8 @@
-alias ls="ls -al"	# list in long format, include dotfiles
-alias ld="ls -dl */"	# list in long format, directories only
+alias ls="pwd;ls -al"	# list in long format, include dotfiles; print the working directory first
+alias ld="ls -dl */"	# list in long format, directories only; print the working directory first
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../../"
 alias please=sudo
+alias msms="bash /usr/local/msms/msms.sh"
+alias c2b2="ssh jjb2218@login.c2b2.columbia.edu"
